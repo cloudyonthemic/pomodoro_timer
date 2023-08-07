@@ -1,0 +1,125 @@
+* {
+    font-family: montserrat, sans-serif;
+}
+
+body {
+    background: #CB356B;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    user-select: none;
+    
+}
+
+#timer {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    user-select: none;
+}
+
+.timer-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.timer-buttons button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #ef233c;
+    box-shadow: 0 5px #d90429;
+}
+
+.timer-buttons button:hover {
+    box-shadow: 0 3px #d90429;
+    top: 1px;
+}
+
+.timer-buttons button:active {
+    box-shadow: 0 0 #d90429;
+    top: 5px;
+}
+
+.timer-input {
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+#setTimeButton {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: green;
+    box-shadow: 0 5px #d90429;
+}
+
+
+#setTimeButton {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none;
+    background-color: #ef233c
+  }
+  #setTimeButton:hover {
+    border-radius: 5px;
+    padding-right: 24px;
+    padding-left:8px;
+  }
+  #setTimeButton:hover:after {
+    opacity: 1;
+    right: 10px;
+  }
+  #setTimeButton:after {
+    content: "\00BB";
+    position: absolute;
+    opacity: 0;
+    font-size: 20px;
+    line-height: 40px;
+    top: 0;
+    right: -20px;
+    transition: 0.4s;
+  }
