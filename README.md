@@ -11,6 +11,12 @@ A simple Pomodoro Timer web application with basic features like starting, stopp
 - Set a custom ⏱️ time for your Pomodoro sessions.
 - Clean and intuitive user interface. 🖼️
 
+## Latest Changes
+- Added a break/s counter
+- Automatically plays a 5:00 minute break after a session is completed
+- Added a session counter
+
+
 ## Usage 🚀
 
 1. Clone the repository to your local machine:
